@@ -1,0 +1,77 @@
+header{
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    right: 0%;
+    top: -5px;
+}
+img{
+    position: fixed;
+    left: 60px;
+}
+
+#logo{
+    position: fixed;
+    top: -5px;
+    left: 60px;
+}
+
+.texto{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#botao1{
+    position: fixed;
+    right: 110px;
+    top: 38px;
+}
+
+#botao2{
+    position: fixed;
+    left: 1125px;
+    top: 38px;
+}
+
+#botao3{
+    position: fixed;
+    left: 910px;
+    top: 38px;
+}
+
+img{
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    left: 620px;
+    top: 150px;
+    box-shadow: 0 4px 20px rgba(0, 0, 1, 0.1);
+}
+
+li{
+    position: relative;
+    top: 200px;
+    left: 370px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#voltar{
+    border: solid 1px black;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 70px;
+    height: 45px;
+    position: fixed;
+    top: 160px;
+    left: 1400px;
+    background-color: black;
+    color: white;
+}
+
+section{
+    position: fixed;
+}

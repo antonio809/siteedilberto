@@ -1,0 +1,133 @@
+header{
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    right: 0%;
+    top: -5px;
+}
+
+img{
+    position: fixed;
+    left: 60px;
+}
+
+.texto{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#botao1{
+    position: fixed;
+    right: 110px;
+    top: 38px;
+}
+
+#botao2{
+    position: fixed;
+    left: 1125px;
+    top: 38px;
+}
+
+#botao3{
+    position: fixed;
+    left: 910px;
+    top: 38px;
+}
+
+
+.fundo{
+    background-color: grey;
+    border-radius: 20px;
+    width: 98%;
+    height: 150px;
+    position: relative;
+    bottom: -120px;
+    left: 10px;
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+
+}
+
+.saiba{
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: -1380px;
+    top: -50px;
+    width: 80px;
+    height: 30px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+
+.saiba:hover{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+#saiba2{
+    position: relative;
+    top: -27px;
+}
+
+#saiba3{
+    position: relative;
+    top: -26px;
+}
+
+h2{
+    padding: 20px;
+}
+
+li{
+    position: relative;
+    top: -33px;
+}
+
+p{
+    padding: 7px;
+    position: relative;
+    top: -35px;
+}
+
+ /* Variáveis para os temas */
+ :root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+
+  .dark-mode {
+    --background-color: #1e1e1e;
+    --text-color: #ffffff;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .toggle-button {
+    position: fixed;
+    top: 35px;
+    right: 20px;
+    width: 40px;
+    height: 35px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: 1px solid white;
+    border-radius: 100px;
+  }
+
+
+
