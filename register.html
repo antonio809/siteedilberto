@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Register Form -->
+        <div id="register-container" class="form-container">
+            <h2>Cadastro</h2>
+            <form id="registerForm">
+                <div class="input-group">
+                    <label for="register-username">Usuário</label>
+                    <input type="text" id="register-username" name="username" placeholder="Crie seu usuário" required>
+                </div>
+                <div class="input-group">
+                    <label for="register-password">Senha</label>
+                    <input type="password" id="register-password" name="password" placeholder="Crie sua senha" required>
+                </div>
+                <button type="submit">Cadastrar</button>
+                <p id="register-error-message" class="error-message"></p>
+            </form>
+            <p class="linkso">Já tem uma conta? <a href="index.html">Faça login aqui</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="modoescuro.js"></script>
+</body>
+</html>
