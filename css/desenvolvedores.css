@@ -1,0 +1,144 @@
+header{
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    right: 0%;
+    top: -5px;
+}
+
+img{
+    position: fixed;
+    left: 60px;
+}
+
+.texto{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+/* Botões do header */
+
+#botao1{
+    position: fixed;
+    right: 108px;
+    top: 38px;
+}
+
+#botao2{
+    position: fixed;
+    left: 1130px;
+    top: 38px;
+}
+
+#botao3{
+    position: fixed;
+    left: 915px;
+    top: 38px;
+}
+/* Fotos do perfil */
+
+#perfil1{
+    position: fixed;
+    top: 26%;
+    left: 26%;
+    border-radius: 20px;
+    border: 1px solid black; 
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.3);   
+}
+
+#perfil2{
+    position: fixed;
+    top: 26%;
+    left: 59%;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#fundo1{
+    position: fixed;
+    top: 67%;
+    left: 22%;
+    background-color: darkgrey;
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#fundo2{
+    position: fixed;
+    top: 66%;
+    left: 55%;
+    background-color: darkgray;
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#voltar{
+    position: fixed;
+    width: 4%;
+    height: 4%;
+    top: 20%;
+    left: 95%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.sbmais{
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.sbmais:hover{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+body{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ /* Variáveis para os temas */
+ :root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+
+  .dark-mode {
+    --background-color: #1e1e1e;
+    --text-color: #ffffff;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .toggle-button {
+    position: fixed;
+    top: 35px;
+    right: 20px;
+    width: 40px;
+    height: 35px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: 1px solid white;
+    border-radius: 100px;
+  }
+
+
+
