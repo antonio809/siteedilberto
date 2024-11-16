@@ -26,28 +26,28 @@ img{
 
 #botao1{
     position: fixed;
-    right: 110px;
-    top: 38px;
+    left: 83.3%;
+    top: 5.2%;
 }
 
 #botao2{
     position: fixed;
-    left: 1125px;
-    top: 38px;
+    left: 73.2%;
+    top: 5.2%;
 }
 
 #botao3{
     position: fixed;
-    left: 910px;
-    top: 38px;
+    left: 59%;
+    top: 5.2%;
 }
 
 img{
     border-radius: 20px;
     display: flex;
     position: relative;
-    left: 620px;
-    top: 150px;
+    left: 76%;
+    bottom: -160px;
     box-shadow: 0 4px 20px rgba(0, 0, 1, 0.1);
 }
 

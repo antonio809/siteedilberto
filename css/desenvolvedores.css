@@ -22,20 +22,20 @@ img{
 
 #botao1{
     position: fixed;
-    right: 108px;
-    top: 38px;
+    left: 83.3%;
+    top: 5.2%;
 }
 
 #botao2{
     position: fixed;
-    left: 1130px;
-    top: 38px;
+    left: 73.2%;
+    top: 5.2%;
 }
 
 #botao3{
     position: fixed;
-    left: 915px;
-    top: 38px;
+    left: 59%;
+    top: 5.2%;
 }
 /* Fotos do perfil */
 
